@@ -25,6 +25,20 @@
 4. 케라스는 강력한 멀티 GPU 및 분산 처리 지원이 가능합니다
 
 
+> import tensorflow as tf 
+>
+> tf.test.is_gpu_available()
+> True
+>
+> tf.test.gpu_device_name() # 결과로 나오는 GPU는 본인 pc 설정에 따라 다를 수 있다.
+>
+> '/device:GPU:0'
+>
+> tf.config.experimental.list_physical_devices(device_type='GPU') # GPU가 어려 개 일 때 
+>
+> [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+
+
 ---
 
 ### ERROR 일지
