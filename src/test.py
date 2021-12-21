@@ -20,7 +20,7 @@ test_images = test_images.astype('float32') / 255
 
 
 # 코드 2-5 레이블 준비하기
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 
 train_labels = to_categorical(train_labels)
 test_labels = to_categorical(test_labels)
