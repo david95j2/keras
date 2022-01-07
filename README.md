@@ -2,6 +2,10 @@
 
 목차별로 따라하기
 
+keras는 Python언어로 만들어진 high-level api 로 다시 말해 Tensorflow 위에 얹어서 사용하는 library 이다. 
+Google 에서 지원하고 Pytorch 위에는 못 얹는다. 
+또한 상대적으로 쉽다고 알려져 있다.
+
 ---
 ---
 
